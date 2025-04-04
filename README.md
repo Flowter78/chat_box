@@ -17,7 +17,7 @@ Windows:
 git clone https://github.com/Flowter78/chat_box.git
 cd chat_box
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 streamlit run my_app.py
 ```
