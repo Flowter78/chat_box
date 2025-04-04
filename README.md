@@ -23,11 +23,29 @@ streamlit run my_app.py
 ```
 
 ## Deploy on Heroku
+Installer Heroku CLI + Créer un compte
 
-...
+```
+heroku login
+heroku create [nom-application]
+git push heroku chat_box_heroku:main
+heroku open
+```
 
+https://my-app-heroku-f62b22c3bd7c.herokuapp.com/
 
-## Commandes Git utiles pour `git push`
+## Annexe 
+
+### Avancement
+
+- Structure de projet Streamlit bien formée ✅
+- Utilisation de .env pour la sécurité ✅
+- Variables d’environnement Heroku ✅
+- Gestion des branches et des remotes Git comme un pro ✅
+- Debug d’un crash Heroku avec les logs ✅
+- Et surtout… un déploiement réussi
+
+### Commandes Git utiles pour `git push`
 
 | Commande                                      | Ce que ça fait                                                        |
 |-----------------------------------------------|------------------------------------------------------------------------|
