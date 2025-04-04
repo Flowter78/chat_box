@@ -3,6 +3,8 @@ Simple chatbox to discuss with trading AI agent about strategy, stock market or 
 
 
 ## Run locally
+Penser à créer un fichier .env avec OPENAI_API_KEY=sk-proj-XXXXXXXXXXXXXXXXXXXXXXX
+
 Linux:
 ```bash
 git clone https://github.com/professorkazarinoff/simple-streamlit-app.git

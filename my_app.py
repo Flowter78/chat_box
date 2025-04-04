@@ -5,8 +5,9 @@ import openai
 
 
 # Charge les variables d'environnement depuis .env 
-load_dotenv()
-print("CLE CHARGÉE :", os.getenv("OPENAI_API_KEY"))
+load_dotenv()  
+
+#print("CLE CHARGÉE :", os.getenv("OPENAI_API_KEY"))
 
 # Récupère la clé
 openai.api_key = os.getenv("OPENAI_API_KEY")
