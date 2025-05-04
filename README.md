@@ -21,3 +21,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run my_app.py
 ```
+
+## Lancement après un certain temps
+activer l'environnement : `venv\Scripts\activate`  
+lancer l'app : streamlit run my_app.py  
+vérifier la version : `pip show openai`
